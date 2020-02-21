@@ -76,7 +76,7 @@ describe("Object.max", () => {
   });
 });
 
-xdescribe("Object.clone", () => {
+describe("Object.clone", () => {
   test("returns a copy of the object", () => {
     const person1 = {
       name: "Sally",
