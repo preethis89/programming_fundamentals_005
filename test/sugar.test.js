@@ -90,7 +90,7 @@ describe("Object.clone", () => {
   });
 });
 
-xdescribe("Object.get", () => {
+describe("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
