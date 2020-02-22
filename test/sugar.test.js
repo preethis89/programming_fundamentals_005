@@ -272,7 +272,7 @@ describe("Object.addAll", () => {
   });
 });
 
-xdescribe("Object.find", () => {
+describe("Object.find", () => {
   test("returns the found value if the object contains a value that matches the matcher function", () => {
     function matcherFunc(val) {
       return val > 99;
@@ -308,7 +308,7 @@ xdescribe("Object.find", () => {
   });
 });
 
-xdescribe("Object.every", () => {
+describe("Object.every", () => {
   test("returns true if all values in the object pass the condition of the matcher the function", () => {
     function matcherFunc(val) {
       return val > 99;
