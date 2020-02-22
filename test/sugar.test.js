@@ -161,7 +161,7 @@ describe("Object.has", () => {
   });
 });
 
-xdescribe("Object.sum", () => {
+describe("Object.sum", () => {
   test("returns the sum of all the values when all values are numbers", () => {
     const obj = {
       a: 1,
